@@ -6,8 +6,8 @@ In this repository all decisions concerning only team 4 should be documented.
 To create a new entry first create a markdown file according to the following template.
 
 ```
-Filename: DD-MM-YYYY-TITLE.md
-Example: 12-09-2019-Example.md
+Filename: YYYY-MM-DD-TITLE.md
+Example: 2019-09-12-Example.md
 ```
 
 Attention: Each title must be unique, so the file is always found.
