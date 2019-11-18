@@ -1,37 +1,26 @@
 #### Anmerkungen SB 15.11. (bitte nach Bearbeitung löschen)
-* Bitte editieren Sie dieses README, z.B. indem Sie das Wiki verlinken. Der Text unten ist nur Default. 
-* In welcher Weise tracken Sie Ihre aufgewendete Zeit? Das sollte eine lokale Team Decision sein. 
 * Domain Vision Statement: 
-    * wie heißt Ihre Domäne? Wo ist das Domain Vision Statement?
     * Wenn Sie Begriffe dort verwenden, bitte verlinken Sie immer auf das Glossar. 
-* Dokumentation Events / Domain Model:
-    * Die Entities des Domain Models müssen mit dem Glossar abgeglichen sein. 
-    * wie mappen die Events auf die Entitäten Ihres Datenmodells?
 
-# fae-team-4-documentation
+# Tracking der aufgewendeten Zeit
 
-In this repository all decisions concerning only team 4 should be documented.
+Zu klären
 
-## Usage
-To create a new entry first create a markdown file according to the following template.
+# Domäne Knopf-Hilferuf Vision-Statement
 
-```
-Filename: YYYY-MM-DD-TITLE.md
-Example: 2019-09-12-Example.md
-```
+Die Domäne Knopf-Hilferuf hält die Aufgabe, auf das Drücken eines Knopfes zu reagieren.
+Nach einem Knopfdruck wird der zugehörige Alarmknopf ermittelt und die sich darum befindlichen
+dementiell erkrankten Personen. Für diese wird dann ein Knopf-Hilferuf erzeugt.
 
-Attention: Each title must be unique, so the file is always found.
+# Lokales Datenmodell
 
-After you have created the file, the server needs some metadata to properly assign the entry. The metadata must be at the top of the file.
+* Knopf - Id, Position
+* DementiellErkranktePerson - Id, GpsSenderId, LetzteErfasstePosition
+* KnopfHilferuf - DementiellErkranktePersonId
 
-### Metadata
-```
----
-layout: post
-title: The title // This does not have to be the same as the file name!
-author: The name of the author // optional
-categories: team4 // The Team Specific Category
----
-```
+# Mapping der Events auf lokales Datenmodell
 
-Following the metadata comes the actual content. Once you commit and push an entry, the server is refreshed and provides the new entry.
+* CRUD eines Knopfes -> Update der Knopf-Entity
+* CRUD eines Dementiell erkrankten Person -> Update der DementiellErkranktePerson-Entity
+* Neue Position -> Update der letzten erfassten Position in DementiellErkranktePerson-Entity
+* Knopfdruck -> Ausführung der Business-Logik und ggf. Erstellung eines KnopfHilferuf.
