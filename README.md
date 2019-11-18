@@ -19,4 +19,4 @@ Nach einem Knopfdruck wird der zugehörige [AlarmKnopf](https://github.com/Archi
 * CRUD eines [AlarmKnopfes](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-15-Glossary-Alarmknopf.md) -> Update der Knopf-Entity
 * CRUD einer [DementiellErkranktenPerson](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-15-Glossary-Dementiell%20erkrankter.md) -> Update der DementiellErkranktePerson-Entity
 * Neue Position -> Update der letzten erfassten Position in DementiellErkranktePerson-Entity
-* Knopfdruck -> Ausführung der Business-Logik und ggf. Erstellung eines KnopfHilferuf.
+* Knopfdruck -> Ausführung der Business-Logik und ggf. Erstellung eines [KnopfHilferuf](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-18-Glossary-Knopf-Hilferuf.md).
