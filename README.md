@@ -16,7 +16,7 @@ Nach einem Knopfdruck wird der zugehörige [Alarmknopf](https://github.com/Archi
 
 # Mapping der Events auf lokales Datenmodell
 
-* CRUD eines [Alarmknopfes](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-15-Glossary-Alarmknopf.md) -> Update der Knopf-Entity
-* CRUD einer [DementiellErkranktenPerson](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-15-Glossary-Dementiell%20erkrankter.md) -> Update der DementiellErkranktePerson-Entity
+* CUD eines [Alarmknopfes](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-15-Glossary-Alarmknopf.md) -> Update der Knopf-Entity
+* CUD einer [DementiellErkranktenPerson](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-15-Glossary-Dementiell%20erkrankter.md) -> Update der DementiellErkranktePerson-Entity
 * Neue Position -> Update der letzten erfassten Position in DementiellErkranktePerson-Entity
 * Knopfdruck -> Ausführung der Business-Logik und ggf. Erstellung eines [AlarmknopfHilferuf](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-18-Glossary-Alarmknopf-Hilferuf.md).
