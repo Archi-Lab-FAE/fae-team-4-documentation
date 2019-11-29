@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Team4 package structure
+title: package structure
 author: team4
 categories: team4
 ---
