@@ -29,3 +29,12 @@ categories: team4
 * PersonPosition  | enhält die aktuelle Position einer Person
 	* trackerId       | von Service, der Tracker registriert, erstellte ID. Deshalb einfacher String
 	* position        | von Service, der Positionen der Personen verwaltet, übermittelte Position der Person
+	
+
+## Kommentar SB 29.11. (bitte nach Bearbeitung löschen)
+* hier draus sollten Sie eher eine Grundsatzentscheidung machen: "Wie sehen unsere IDs aus"
+* Bitte fügen Sie noch eine neue Decision für Ihr Time-Tracking ein: 
+   * welche Daten erfassen Sie bei der Eingabe und wieso?
+   * zeitliche Granularität, in der Sie Ihre Aktivitäten erfassen (15min, 1h, ...) und wieso
+* es wäre hilfreich, wenn Sie schon einmal eine Beispiel-Auswertung, basierend auf Ihrer bis hierhin aufgewendeten Zeit, in Ihre Dokumentation aufnehmen würden.
+* gibt es keine weiteren Entscheidungen bis jetzt?	
