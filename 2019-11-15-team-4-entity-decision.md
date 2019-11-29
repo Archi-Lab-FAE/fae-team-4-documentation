@@ -11,21 +11,24 @@ categories: team4
 |                           | id           | Mapping Hilferuf auf Person                                                                                 |
 |                           | trackerId    | Wird von Service, der tracker anlegt, erstellt. Deshalb einfacher String                                    |
 |                           | position     | Die zuletzt über Kafka übermittlete Position                                                                |
+|                           |              |                                                                                                             |
 | Alarmknopf                |              | Bei unserem Service ankommende Meldung                                                                      |
 |                           | id           | Von Service, der Registrierung des Knopfes vornimmt, erstllt. Deswegen einfacher String                     |
 |                           | position     | Position des Knopfes                                                                                        |
+|                           |              |                                                                                                             |
 | Alarmknopfdruck           |              | Bei unserem Service ankommende Meldung                                                                      |
 |                           | alarmknopfId | eindeutige id für Knopf. Wird vom Controller zugewiesen. String, weil nicht von uns erstellt oder überprüft |
+|                           |              |                                                                                                             |
 | Position                  |              | Einbettbare Klasse, die Eigenschaften einer Position enthält                                                |
 |                           | id           | von uns zugewiesene id. Deshalb UUID.                                                                       |
 |                           | laengengrad  | Eigenschaft einer Position                                                                                  |
 |                           | breitengrad  | Eigenschaft einer Position                                                                                  |
+|                           |              |                                                                                                             |
 | Laengengrad               |              | Kapsel für den Laengengrad                                                                                  |
 |                           | laengengrad  |                                                                                                             |
+|                           |              |                                                                                                             |
 | Breitengrad               |              | Kapsel für den Breitengrad                                                                                  |
 |                           | breitengrad  |                                                                                                             |
-|                           |              |                                                                                                             |
-|                           |              |                                                                                                             |
 
 	
 
