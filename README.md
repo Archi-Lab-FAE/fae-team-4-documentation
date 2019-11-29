@@ -1,3 +1,9 @@
+#### Anmerkungen SB 29.11. (bitte nach Bearbeitung löschen)
+* Das README sollte die "Eintrittskarte" in das Repo bieten. Hierhin gehört:
+   * das Domain Vision Statement - in einer Form, dass ein **Außenstehender** versteht, worum es geht.
+   * Hinweise auf Weiterlesen (Wiki)	
+* die Elemente unten gehören aus meiner Sicht teilweise in die Decisions, teils ins Glossar, teils in Wiki
+
 # Tracking der aufgewendeten Zeit
 
 Zu klären
