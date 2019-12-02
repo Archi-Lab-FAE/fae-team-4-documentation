@@ -4,25 +4,10 @@
    * Hinweise auf Weiterlesen (Wiki)	
 * die Elemente unten gehören aus meiner Sicht teilweise in die Decisions, teils ins Glossar, teils in Wiki
 
-# Tracking der aufgewendeten Zeit
-
-Zu klären
-
 # Domäne Alarmknopf-Hilferuf Vision-Statement
 
-Die Domäne Alarmknopf-Hilferuf hält die Aufgabe, auf das Drücken eines [Alarmknopfes](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-15-Glossary-Alarmknopf.md) zu reagieren.
-Nach einem Knopfdruck wird der zugehörige [Alarmknopf](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-15-Glossary-Alarmknopf.md) ermittelt und die sich darum befindlichen
-[dementiell erkrankten Personen](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-15-Glossary-Dementiell%20erkrankter.md). Für diese wird dann ein [Alarmknopf-Hilferuf](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-18-Glossary-Alarmknopf-Hilferuf.md) erzeugt.
+Die Domäne Alarmknopf-Hilferuf dreht sich um die Erstellung von Alarmknopf-Hilferufen, falls einer der Alarmknöpfe gedrückt worden ist. Die Alarmknöpfe sind in Form von kleinen Hardware-Buzzern in teilnehmenden Geschäften der Ortschaft verteilt. Hier können Mitarbeiter den Knopf, wenn sie den Eindruck haben, dass eine dementiell veränderte Person desorientiert ist, drücken. In diesem Fall sollen die Angehörige dieser Personen informiert werden, damit sie sich um das Problem kümmern können. Die Registrierung von neuen Alarmknöpfen wird auch von der Domäne übernommen.
 
-# Lokales Datenmodell
+# Weitere Informationen
 
-* [Alarmknopf](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-15-Glossary-Alarmknopf.md) - Id, Position
-* [DementiellErkranktePerson](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-15-Glossary-Dementiell%20erkrankter.md) - Id, GpsSenderId, LetzteErfasstePosition
-* [AlarmknopfHilferuf](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-18-Glossary-Alarmknopf-Hilferuf.md) - DementiellErkranktePersonId
-
-# Mapping der Events auf lokales Datenmodell
-
-* CUD eines [Alarmknopfes](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-15-Glossary-Alarmknopf.md) -> Update der Knopf-Entity
-* CUD einer [DementiellErkranktenPerson](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-15-Glossary-Dementiell%20erkrankter.md) -> Update der DementiellErkranktePerson-Entity
-* Neue Position -> Update der letzten erfassten Position in DementiellErkranktePerson-Entity
-* Knopfdruck -> Ausführung der Business-Logik und ggf. Erstellung eines [AlarmknopfHilferuf](https://github.com/Archi-Lab-FAE/fae-global-documentation/blob/master/2019-11-18-Glossary-Alarmknopf-Hilferuf.md).
+Finden sich im [Wiki](https://github.com/Archi-Lab-FAE/fae-team-4-documentation/wiki)
